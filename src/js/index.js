@@ -7,12 +7,10 @@ const loadButton = document.querySelector('.button__load--js');
 const saveButton = document.querySelector('.button__save--js'); 
 
 saveButton.addEventListener('click', () => {
-    const textEditorString = JSON.stringify(textEditor.value);
-    localStorage.setItem('textarea', textEditorString);
+    localStorage.setItem('textarea', textEditor.value);
     textEditor.value = '';
 })
 
 loadButton.addEventListener('click', () => {
-    const textEditorObject = JSON.parse(localStorage.getItem('textarea'));
-    textEditor.value = textEditorObject;
+    textEditor.value = localStorage.getItem('textarea');
 })
