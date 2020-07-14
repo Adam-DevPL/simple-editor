@@ -1,11 +1,25 @@
-![cover](https://cotenfrontend.pl/img/cover.png)
+![cover](public/hydrapp.png)
 
-# WTF Webpack Starter Kit 
+# Simple Editor.
+> My simple editor to save text and load last saved one.
 
-Simple toolkit for your static websites development.
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Available scripts](#available-scripts)
+* [Status](#status)
 
-## How to use it?
+## General info
+It's simple editor to save input text. We can also load last register text. It's holding text in local storage. 
 
+## Technologies
+* WTF Webpack starterkit
+* HTML + CSS + JS
+* GitHub API
+* CSS Grid
+
+## Setup
 Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
 
 ## Available scripts
@@ -16,3 +30,5 @@ Click on `Use this template` button to generate a new repository based on this s
 
 `npm run publish` - runs build process and publish the page using `gh-pages` branch
 
+## Status
+Project is: done.
