@@ -1,4 +1,4 @@
-![cover](public/hydrapp.png)
+![cover](public/simple-editor.png)
 
 # Simple Editor.
 > My simple editor to save text and load last saved one.
